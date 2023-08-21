@@ -1,0 +1,29 @@
+{
+	"name": "wally-package-export",
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+			"DevPackages": {
+				"$path": "DevPackages"
+			},
+			"Packages": {
+				"$path": "Packages",
+				"WallyPackageExport": {
+					"$path": "src",
+					"$properties": {
+						"Attributes": {
+							"DebugPackage": {"Bool": true}
+						}
+					}
+				}
+			}
+		},
+		"ServerScriptService": {
+			"$className": "ServerScriptService",
+			"Test": {
+				"$path": "test"
+			}
+		}
+	}
+}

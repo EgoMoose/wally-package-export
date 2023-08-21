@@ -1,0 +1,6 @@
+{
+	"name": "wally-package-export",
+	"tree": {
+		"$path": "src"
+	}
+}

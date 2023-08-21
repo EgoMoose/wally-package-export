@@ -1,0 +1,15 @@
+[package]
+name = "egomoose/wally-package-export"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
+WallyPackageAccess = "egomoose/wally-package-access@0.2.1"
+
+[dev-dependencies]
+Promise4 = "evaera/promise@4.0.0"
+Promise3 = "evaera/promise@3.2.1"
+PlayerModule = "upliftgames/playermodule@578.0.5780566"
+Janitor = "howmanysmall/janitor@1.15.6"
+Knit = "sleitnick/knit@1.5.1"
